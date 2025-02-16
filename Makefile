@@ -1,6 +1,6 @@
 all: os
 
-os: fboot.bin fkernel.bin fwriter.bin collect.asm
+os: fboot.bin fkernel.bin fwriter.bin hello.bin collect.asm
 	fasm collect.asm os
 
 fboot.bin fkernel.bin fwriter.bin: %.bin: %.asm

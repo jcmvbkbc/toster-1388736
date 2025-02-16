@@ -7,4 +7,6 @@ Begin:
 	align 512
 	file "fwriter.bin" ; второй файл - текстовый редатор
 	align 512
+	file "hello.bin"
+	align 512
 	align HEADS*SPT*512
